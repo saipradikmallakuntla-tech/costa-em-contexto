@@ -1,28 +1,23 @@
-# Costa em Contexto
+# Costa em Contexto / Regional Coastal Context
 
-[Aplicativo](https://saipradikmallakuntla-tech.github.io/costa-em-contexto/) | [Central da rede](https://saipradikmallakuntla-tech.github.io/praia-digital-satellite-hub/)
+[Guia publicado / Published guide](https://saipradikmallakuntla-tech.github.io/costa-em-contexto/) · [Fonte / Source](docs/index.md) · [Diretório / Directory](docs/NETWORK_DIRECTORY.md)
 
-HTML/CSS/JS sem dependencias ou build. Pages: main/raiz, .nojekyll. Rode python -m http.server 8000 para desenvolvimento.
+## PT
 
-Conversao cm/escala/metros, roteiro por finalidade e processo, leitura de classes relativas, anotações locais, impressao e exportacao TXT. Piloto documental de Guaruja: SGB/IPT, 2015, escala 1:25.000. Outras cidades sao explicitamente nao revisadas neste app. Nao e mapa de risco de imoveis, laudo, geocodificador ou alerta atual. A ilustracao nao e regua fisica.
+Guia documental para ler fontes regionais, escala e suscetibilidade sem transformar uma carta em avaliação de imóvel, diagnóstico ou alerta atual. A referência bibliográfica histórica de Guarujá, SGB/IPT, 2015, escala 1:25.000, é identificada como herdada, não revalidada nesta publicação.
 
-Fontes lidas em 14/11/2026: https://rigeo.sgb.gov.br/items/861e2035-03c6-4b92-a9b9-edc4545ce4bf e https://sgb.gov.br/saiba-mais-cartas-de-suscetibilidade . Nenhum vetor redistribuido ou PDF pesado carregado automaticamente.
+GitHub Pages publica **main → /docs**, com HTTPS e sem domínio personalizado. O novo site contém somente `docs/index.md` e `docs/NETWORK_DIRECTORY.md`; o [diretório da raiz](NETWORK_DIRECTORY.md) é um espelho. Todos os demais arquivos legados da raiz, inclusive `.nojekyll`, aplicação e dados históricos, permanecem inalterados e fora da fonte publicada. Não há código novo, scripts ou reescrita de histórico.
 
-Notas em localStorage, chave costa-em-contexto:notes:v1; baixe TXT. Nao armazene segredos. Os projetos Pages compartilham a origem. Sem CDN, analytics ou vinculo institucional presumido.
+## EN
 
-## Scope A — diretório documental / Documentation directory
+A documentation-only guide to regional sources, map scale and susceptibility. A regional map is not a property assessment, diagnosis or current warning. The historical Guarujá SGB/IPT 2015 reference at 1:25,000 is explicitly inherited, not newly revalidated.
 
-Revisão editorial / Editorial revision: **2026-11-17**. O site e sua lógica de escala, roteiro e anotações são preservados. Esta conversão altera somente README.md e NETWORK_DIRECTORY.md aqui, sem mudanças de HTML, CSS, JavaScript, fontes ou configuração Pages. Os três novos destinos são guias documentais PT/EN em Markdown, não aplicativos interativos.
+Pages publishes Markdown from **main → /docs**, with HTTPS and no custom domain. The root directory mirrors the published directory. Legacy files remain unchanged outside the publishing source; no code or publication scripts are added.
 
-The existing website, scale logic, reading guide and local notes are preserved. This conversion changes only README.md and NETWORK_DIRECTORY.md here, without changes to HTML, CSS, JavaScript, source evidence or Pages settings. The three new destinations are bilingual Markdown reference guides, not interactive applications. This editorial date does not update the original map or certify any location.
+## Checklist e limites / Checklist and limits
 
-[Diretório completo e limites / Full directory and limits](NETWORK_DIRECTORY.md)
+- [ ] Conferir fonte, edição, legenda e escala / Check source, edition, legend and scale.
+- [ ] Separar suscetibilidade, risco e previsão / Distinguish susceptibility, risk and forecasts.
+- [ ] Consultar autoridade ou profissional para decisões locais / Seek responsible authorities or qualified advice for site-specific decisions.
 
-- [Central / Hub](https://saipradikmallakuntla-tech.github.io/praia-digital-satellite-hub/)
-- [Maresia em Dia / Maintenance](https://saipradikmallakuntla-tech.github.io/maresia-em-dia/)
-- [Acesso à Praia / Beach access](https://saipradikmallakuntla-tech.github.io/acesso-a-praia/)
-- [Rota Ciclo Costeira / Cycling reference](https://saipradikmallakuntla-tech.github.io/rota-ciclo-costeira/)
-- [Balneabilidade Guia / Bathing-water reference](https://saipradikmallakuntla-tech.github.io/balneabilidade-guia/)
-- [Feiras e Serviços / Markets and services reference](https://saipradikmallakuntla-tech.github.io/feiras-e-servicos-litoral/)
-
-Direct HTTPS project URLs only, no custom-domain changes. No new functional-test or safety-certification claim is made in this documentation pass. The audit fork and upstream/third-party repositories are outside scope.
+Revisão editorial / Editorial revision: **2026-11-17**, not a map-update or field-inspection date. Independent reference only. The SEO audit and upstream/third-party repositories are excluded from changes.
